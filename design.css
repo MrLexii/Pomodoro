@@ -14,14 +14,13 @@
 } 
 #start {
     color : aquamarine;
-    background-color: black;
+} 
+#restart {
+    color : aquamarine;
 } 
 
-body {
-    background-color: red;
-}
-
 main {
+    background-color: red;
     display: flex;
     justify-content: center;
     align-items: center;
