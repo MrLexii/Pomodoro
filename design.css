@@ -1,10 +1,40 @@
-.titre {
-    color : whitesmoke;
-    text-align: center;
-    width: auto;
-    height: auto;
-    line-height: auto ;
-    
+#titre {
+    color : aquamarine;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
 } 
 
-body {background-color: red;}
+#travail {
+    color : aquamarine;
+    background-color: black;
+} 
+#pause {
+    color : aquamarine;
+    background-color: black;
+} 
+#start {
+    color : aquamarine;
+    background-color: black;
+} 
+
+body {
+    background-color: red;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+footer{
+    display: flex;
+    background-color: black;
+    width: 100%;
+    min-height: 5%;
+    color: aquamarine;
+    justify-content: center;
+    align-items: center;
+}
