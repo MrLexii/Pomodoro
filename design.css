@@ -4,6 +4,12 @@
     -webkit-text-stroke-width: 1px;
 } 
 
+#titre2 {
+    color : aquamarine;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+} 
+
 #travail {
     color : aquamarine;
     background-color: black;
