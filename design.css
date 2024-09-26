@@ -25,6 +25,34 @@
     color : aquamarine;
 } 
 
+:root {
+    --progress-bar-width: 200px;
+    --progress-bar-height: 200px;
+    --font-size: 2rem;
+  }
+  
+#bar {
+    width: var(--progress-bar-width);
+    height: var(--progress-bar-height);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cercle {
+    position: absolute;
+    width: calc(var(--progress-bar-width) - 30px);
+    height: calc(var(--progress-bar-height) - 30px);
+    border-radius: 50%;
+    background-color: aquamarine;
+}
+  
+#percentage {
+    position: relative;
+    font-size: var(--font-size);
+    color: aquamarine;
+}
+
 main {
     background-color: red;
     display: flex;
