@@ -47,8 +47,8 @@
     color: aquamarine;
 }
 
-main{
-    background-color: red;
+#principal{
+    background-color: rgb(205, 17, 17);
     display: flex;
     justify-content: center;
     align-items: center;

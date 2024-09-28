@@ -73,6 +73,7 @@ function rebour() {
 
 /*Nous avons ici les listener pour les boutons de lancement et de relance, ainsi que la fonction de la progressBar.*/
 let minuteur
+let main = document.getElementById("principal")
 let lance = document.getElementById("start")
 lance.addEventListener("click", evt => {
     if (minuteur == null) {
@@ -101,6 +102,7 @@ lance.addEventListener("click", evt => {
                     }
                 }, 15000)
             })
+           
         }
         if (bool === false) {
             Array.from(circularProgress).forEach((progressBar) => {
@@ -126,16 +128,18 @@ lance.addEventListener("click", evt => {
                     }
                 }, 3000)
             })
+            
         }
-
     }
     if (bool === true) {
         buttonpause.style.display = "none"
         buttontravail.style.display = "none"
+        main.style.background = "rgb(205, 17, 17)"
     }
     if (bool === false) {
         buttontravail.style.display = "none"
         buttonpause.style.display = "none"
+        main.style.background = "green"
     }
 
 })
