@@ -1,37 +1,31 @@
-#titre {
+#titrepomo{
     color : aquamarine;
     -webkit-text-stroke-color: black;
     -webkit-text-stroke-width: 1px;
-} 
+}
 
-#titre2 {
-    color : aquamarine;
-    -webkit-text-stroke-color: black;
-    -webkit-text-stroke-width: 1px;
-} 
-
-#travail {
+#travail{
     color : aquamarine;
     background-color: black;
 } 
-#pause {
+#pause{
     color : aquamarine;
     background-color: black;
 } 
-#start {
+#start{
     color : aquamarine;
 } 
-#restart {
+#restart{
     color : aquamarine;
 } 
 
-:root {
+:root{
     --progress-bar-width: 200px;
     --progress-bar-height: 200px;
     --font-size: 2rem;
   }
   
-#bar {
+#bar{
     width: var(--progress-bar-width);
     height: var(--progress-bar-height);
     border-radius: 50%;
@@ -39,7 +33,7 @@
     justify-content: center;
     align-items: center;
 }
-#cercle {
+#cercle{
     position: absolute;
     width: calc(var(--progress-bar-width) - 30px);
     height: calc(var(--progress-bar-height) - 30px);
@@ -47,13 +41,13 @@
     background-color: aquamarine;
 }
   
-#percentage {
+#percentage{
     position: relative;
     font-size: var(--font-size);
     color: aquamarine;
 }
 
-main {
+main{
     background-color: red;
     display: flex;
     justify-content: center;

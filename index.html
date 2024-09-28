@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
+    <!--Cette partie concerne la tête de la page html et les liens entre le html et le css et javascript-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script defer src="java.js"></script>
@@ -8,34 +10,38 @@
     <link rel="stylesheet" href="design.css">
     <title>Index</title>
 </head>
+
 <body>
     <main>
-        <h1 id="titre">Timer Pomodoro</h1>
-        <h2 id="titre2"> Travail = vert / Pause = Rouge </h2>
+        <!--Premiere partie du Body, correspondant au titre de la page-->
+        <h1 id="titrepomo">Timer Pomodoro</h1>
+        <!--Le div ci-dessous permeet de switch via le javascripte entre le mode de travail et le mode de pause-->
         <div>
             <button id="travail">Travail</button>
             <button id="pause">Pause</button>
         </div>
-        <div id="bar" data-inner-circle-color="aquamarine" value="100" data-progress-color="black" data-bg-color="aquamarine">
+        <!--Le div suivant permet d'avoir les parametre utile pour afficher une progress bar circulaire avec un pourcentage de realisation.-->
+        <div id="bar" data-inner-circle-color="aquamarine" data-progress-color="black"
+            data-bg-color="aquamarine">
             <div id="cercle"></div>
             <p id="percentage">0%</p>
-          </div>
+        </div>
+        <!--Ce div la permet d'avoir le temps restant de temps de travail ou de pause-->
         <div>
             <p id="timer">Temps Restant : ??</p>
         </div>
+        <!--Ce derniere div permet de lancer et/ou relancer le pomodoro a 0-->
         <div>
             <span id="start" class="fa-solid fa-play"></span>
             <span id="restart" class="fa-solid fa-rotate-right"></span>
         </div>
-    
     </main>
-   
-
+    <!--Nous avons ici le footer pour le copyright-->
     <footer>
         © Pinson Felix
     </footer>
-
-    /*https://dev.to/shubhamtiwari909/circular-progress-bar-css-1bi9 : Aide pour la ProgressBar*/ 
+    <!--https://dev.to/shubhamtiwari909/circular-progress-bar-css-1bi9 : Aide pour la ProgressBar-->
 </body>
+
 </html>
 
