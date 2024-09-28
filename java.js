@@ -1,17 +1,17 @@
 let timer = document.getElementById("timer")
 /*
-Cette partie permet d'initialiser les valeur du timer pour les minutes (travail ou pause) et les seconde 
-ainsi qu'un boolean pour le switch entre le travail et la pause
+Cette partie permet d'initialiser les valeurs du timer pour les minutes (travail ou pause) et les secondes 
+Ainsi qu'un bon pour le switch entre le travail et la pause.
 */
 let travail = 24
 let pause = 4
 let sec = 60
 let bool = true
 
-/*Cette ligne permet de lier le html et le javascript pour la progress bar*/
+/*Cette ligne permet de lier le HTML et le JavaScript pour la progression bar.*/
 const circularProgress = document.querySelectorAll("#bar");
 
-/*Les deux Let sont les listener pour que l'utilisateur puisse choisir entre travail ou pause pour le départ*/
+/*Les deux let sont les listener pour que l'utilisateur puisse choisir entre travail ou pause pour le départ.*/
 let buttontravail = document.getElementById("travail")
 buttontravail.addEventListener("click", evt => {
     timer.textContent = "Temps Restant : 25 : 00"
@@ -23,7 +23,7 @@ buttonpause.addEventListener("click", evt => {
     bool = false
 })
 
-/*La fonction ce-dessous permet de faire le decompte du timer et le switch auto entre travail et pause*/
+/*La fonction ci-dessous permet de faire le décompte du timer et le switch auto entre travail et pause.*/
 function rebour() {
 
     sec = sec - 1
@@ -71,7 +71,7 @@ function rebour() {
 
 }
 
-/*Nous avons ici les listener pour les boutons de lancement et de relance ainsi que la fonction de la progressBar*/
+/*Nous avons ici les listener pour les boutons de lancement et de relance, ainsi que la fonction de la progressBar.*/
 let minuteur
 let lance = document.getElementById("start")
 lance.addEventListener("click", evt => {

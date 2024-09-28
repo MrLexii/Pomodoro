@@ -2,7 +2,7 @@
 <html lang="fr">
 
 <head>
-    <!--Cette partie concerne la tête de la page html et les liens entre le html et le css et javascript-->
+    <!--Cette partie concerne la tête de la page HTML et les liens entre le HTML, CSS et JavaScript-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script defer src="java.js"></script>
@@ -13,30 +13,30 @@
 
 <body>
     <main>
-        <!--Premiere partie du Body, correspondant au titre de la page-->
+        <!--Première partie du Body, correspondant au titre de la page-->
         <h1 id="titrepomo">Timer Pomodoro</h1>
-        <!--Le div ci-dessous permeet de switch via le javascripte entre le mode de travail et le mode de pause-->
+        <!--Le div ci-dessous permet de switcher via le JavaScript entre le mode de travail et le mode de pause.-->
         <div>
             <button id="travail">Travail</button>
             <button id="pause">Pause</button>
         </div>
-        <!--Le div suivant permet d'avoir les parametre utile pour afficher une progress bar circulaire avec un pourcentage de realisation.-->
+        <!--Le div suivant permet d'avoir les paramètres utiles pour afficher une progression bar circulaire avec un pourcentage de réalisation.-->
         <div id="bar" data-inner-circle-color="aquamarine" data-progress-color="black"
             data-bg-color="aquamarine">
             <div id="cercle"></div>
             <p id="percentage">0%</p>
         </div>
-        <!--Ce div la permet d'avoir le temps restant de temps de travail ou de pause-->
+        <!--Ce div la permet d'avoir le temps restant de temps de travail ou de pause.-->
         <div>
             <p id="timer">Temps Restant : ??</p>
         </div>
-        <!--Ce derniere div permet de lancer et/ou relancer le pomodoro a 0-->
+        <!--Ce dernier div permet de lancer et/ou relancer le pomodoro à 0.-->
         <div>
             <span id="start" class="fa-solid fa-play"></span>
             <span id="restart" class="fa-solid fa-rotate-right"></span>
         </div>
     </main>
-    <!--Nous avons ici le footer pour le copyright-->
+    <!--Nous avons ici le footer pour le copyright.-->
     <footer>
         © Pinson Felix
     </footer>
