@@ -11,3 +11,4 @@ Voici le README pour l'application POMODORO réalisé par mes soins :
 - Avec l'aide de mon professeur, je suis le seul à maintenir ce projet.
 
 Merci d'avoir lu et bonne utilisation.
+Felix Pinson
